@@ -31,6 +31,8 @@ uv run number-detection --epochs 2 --device cuda
 
 仓库支持直接 clone 到 Colab 执行，可参考 `notebooks/mnist_colab_demo.ipynb`。
 
+同时提供配置文件 `colab-run.yaml`，可用于 config-driven 的 Colab bootstrap 流程。
+
 核心命令：
 
 ```bash
